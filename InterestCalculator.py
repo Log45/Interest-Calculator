@@ -10,7 +10,7 @@ def compound():
 
     rate = Entry(root, width=75)
     rate.grid(row=3, column=0)
-    rate.insert(0, "What is your interest rate? ")
+    rate.insert(0, "What is your % interest rate? ")
 
     number = Entry(root, width=75)
     number.grid(row=4, column=0)
@@ -40,7 +40,7 @@ def simple():
 
     rate = Entry(root, width=75)
     rate.grid(row=3, column=2)
-    rate.insert(0, "What is your interest rate? ")
+    rate.insert(0, "What is your % interest rate? ")
 
     time = Entry(root, width=75)
     time.grid(row=4, column=2)
